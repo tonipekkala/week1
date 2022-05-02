@@ -1,0 +1,29 @@
+|<!DOCTYPE html>
+head
+  meta(charset='UTF-8')
+  title Title
+  link(href='./css/style.css' rel='stylesheet')
+h1 Click on the cat
+article
+  header
+    h2 Name
+  figure
+    img.big.small.trans(src='./img/cat.jpg')
+  p Age: 7
+  p Weight 5kg
+  
+  
+form(class="form-signin" method="POST" action="/")
+  p 
+  label( for="inputEmail" class="") Email address
+  input(type="email" name="username" id="inputEmail" class="" placeholder="Email address" required autofocus)
+
+  p 
+  label(for="inputPassword" class="") Password
+  input(type="password" name="password" id="inputPassword" class="" placeholder="Password" required)
+  
+  p
+  - var buttonClass=['btn', 'btn-lg', 'btn-primary', 'btn-block'];
+  button(class=buttonClass type="submit") Sign in
+			
+script(src='./js/main.js')

@@ -1,0 +1,24 @@
+{
+  "name": "my-node",
+  "version": "1.0.0",
+  "description": "learning node and npm",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.metropolia.fi:wtp-3011/my-first-node.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "lodash"
+  ],
+  "author": "Toni",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
